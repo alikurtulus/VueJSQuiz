@@ -4,6 +4,10 @@
         <b-container class="bv-example-row">
           <b-row>
               <b-col sm="6" offset="3">
+                <br>
+                <br>
+                <br>
+                <br>
                  <QuestionBox 
                  v-if="questions.length"
                  :currentQuestion="questions[index]"
